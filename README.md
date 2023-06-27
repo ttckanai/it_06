@@ -9,10 +9,10 @@ AWS Lambda での Python のクラウド実行
 ```bash
 mkdir package
 conda create -n lambda_janome python=3.10
-conda actvate lambda_janome
+conda activate lambda_janome
 pip install janome -t ./package
 code ./package/lambda_function.py
-code ./package/subprocess.py
+code ./package/util.py
 ```
 
 ### シンプルな関数
