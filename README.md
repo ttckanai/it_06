@@ -6,6 +6,8 @@ AWS Lambda での Python のクラウド実行
 
 ### 事前準備
 
+Anaconda Promptから以下を実行
+
 ```bash
 mkdir package
 conda create -n lambda_janome python=3.10
