@@ -86,7 +86,7 @@ code ./package/util.py
   * テーブルの作成
     * テーブル名 : ChatHistory
     * パーティションキー : Username
-    * ソートキー : Tag
+    * ソートキー : ArtileId
   * データ登録
     * (作ったテーブルを選択)
     * 「アクション」
