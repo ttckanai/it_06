@@ -5,7 +5,7 @@ import util
 
 def lambda_handler(event, context):
     dynamodb = boto3.client('dynamodb')
-    table_name = "ChatHistory"
+    table_name = "ChatHistory" # 正しいテーブル名？
     filter = {}
     # filter = {
     #     "Username":{
@@ -23,7 +23,7 @@ def lambda_handler(event, context):
     items = res["Items"]
     docs = []
     s3 = boto3.client("s3")
-    bucket_name = "lambda-functions-ttckanai"
+    bucket_name = "lambda-functions-ttckanai" # 正しいテーブル名？
     for item in items:
         attr = {}
         filename = "token"
